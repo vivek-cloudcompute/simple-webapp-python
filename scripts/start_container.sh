@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Build Docker image
 sudo docker pull vivekcloud81/simple-webpython-project
