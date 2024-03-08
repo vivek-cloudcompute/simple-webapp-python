@@ -7,4 +7,4 @@ set -e
 sudo docker pull vivekcloud81/simple-webpython-project
 
 # Run Docker container
-sudo docker run -d -p 5000:5000 simple-webpython-project
+sudo docker run -d -p 5000:5000 vivekcloud81/simple-webpython-project
