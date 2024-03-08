@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 #login to Docker
-sudo docker login -u $DOCKER_USER -p $DOCKER_PASSWORD docker.io
+#sudo docker login -u $DOCKER_USER -p $DOCKER_PASSWORD docker.io
 
 # Build Docker image
 sudo docker pull vivekcloud81/simple-webpython-project
